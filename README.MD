@@ -103,19 +103,23 @@ The Flask application utilizes various functionalities:
 ## 8. Getting Started
 
 To begin utilizing ShopAssist AI, please proceed with the following instructions.
-1. **create a open api key and add to OpenAI_API_Key.txt**
-2. **Install dependencies**
+1. **Clone the repository**
+   ``` shell
+   $ git clone https://github.com/Ankitchandre/shopassist.git
+   ```
+2. **create a open api key and add to OpenAI_API_Key.txt**
+3. **Install dependencies**
     ```   
     $ pip install -r requirements.txt
     ```
 
-3. **Initialize the chatbot**
+4. **Initialize the chatbot**
     ```
     $ python3 app.py
     ```
-4. **Open your web browser and navigate to: http://localhost:5001**
+5. **Open your web browser and navigate to: http://localhost:5001**
 
-## 9.  chatbot screenshots
+## 9. chatbot screenshots
 
 ![Screenshot1](images/image1.png)
 ![Screenshot2](images/image2.png)
@@ -126,7 +130,7 @@ To begin utilizing ShopAssist AI, please proceed with the following instructions
 ![Screenshot7](images/image7.png)
 ![Screenshot8](images/image8.png)
 
-- try asking questions like :
-    "What laptops do you have available?"
-    "I need a laptop for gaming under ₹80,000"
-    "Show me laptops with 16GB RAM"
+## Try asking questions like :
+  - "What laptops do you have available?"
+  - "I need a laptop for gaming under ₹80,000"
+  - "Show me laptops with 16GB RAM"
