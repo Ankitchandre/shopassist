@@ -1,0 +1,1366 @@
+2025-03-21 12:58:19,652 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.3:5001
+2025-03-21 12:58:19,652 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 12:58:19,654 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 12:58:20,188 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 12:58:20,199 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 12:58:35,020 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:58:35] "GET / HTTP/1.1" 200 -
+2025-03-21 12:58:35,111 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:58:35] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-03-21 12:58:35,131 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:58:35] "GET /static/send-icon.png HTTP/1.1" 200 -
+2025-03-21 12:58:35,143 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:58:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-21 12:58:39,037 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:58:39] "[35m[1mPOST /conversation HTTP/1.1[0m" 500 -
+2025-03-21 12:58:39,049 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:58:39] "GET /conversation?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-03-21 12:58:39,052 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:58:39] "GET /conversation?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-03-21 12:58:39,171 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:58:39] "GET /conversation?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-21 12:58:39,233 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:58:39] "[36mGET /conversation?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-21 13:01:49,879 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:01:49] "GET / HTTP/1.1" 200 -
+2025-03-21 13:01:49,902 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:01:49] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 13:01:49,911 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:01:49] "[36mGET /static/send-icon.png HTTP/1.1[0m" 304 -
+2025-03-21 13:01:53,221 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:01:53] "[35m[1mPOST /conversation HTTP/1.1[0m" 500 -
+2025-03-21 13:01:53,238 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:01:53] "[36mGET /conversation?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-03-21 13:01:53,239 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:01:53] "[36mGET /conversation?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-03-21 13:01:53,252 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:01:53] "[36mGET /conversation?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-21 13:02:01,333 - werkzeug - INFO -  * Detected change in '/Users/krutikanatu/Documents/course6-genai/shop-assist-ai-main/chatbot/app.py', reloading
+2025-03-21 13:02:01,437 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 13:02:02,140 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 13:02:02,148 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 13:02:55,606 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.3:5001
+2025-03-21 13:02:55,606 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 13:02:55,607 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 13:02:56,145 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 13:02:56,155 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 13:03:03,153 - __main__ - ERROR - Form data missing 'user_input_message'
+2025-03-21 13:03:03,158 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:03:03] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 13:03:03,174 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:03:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 13:03:03,181 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:03:03] "[36mGET /static/send-icon.png HTTP/1.1[0m" 304 -
+2025-03-21 13:03:05,672 - __main__ - ERROR - Form data missing 'user_input_message'
+2025-03-21 13:03:05,673 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:03:05] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 13:03:05,689 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:03:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 13:04:15,899 - werkzeug - INFO -  * Detected change in '/Users/krutikanatu/Documents/course6-genai/shop-assist-ai-main/chatbot/app.py', reloading
+2025-03-21 13:04:16,015 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 13:04:16,707 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 13:04:16,716 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 13:04:20,417 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.3:5001
+2025-03-21 13:04:20,417 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 13:04:20,417 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 13:04:20,909 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 13:04:20,917 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 13:04:25,711 - __main__ - ERROR - Error processing request: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-03-21 13:04:25,717 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:04:25] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 13:04:25,742 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:04:25] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 13:04:29,715 - __main__ - ERROR - Error processing request: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-03-21 13:04:29,716 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:04:29] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 13:04:29,722 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:04:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 13:06:10,922 - werkzeug - INFO -  * Detected change in '/Users/krutikanatu/Documents/course6-genai/shop-assist-ai-main/chatbot/app.py', reloading
+2025-03-21 13:06:11,033 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 13:06:11,754 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 13:06:11,762 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 13:06:19,601 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.3:5001
+2025-03-21 13:06:19,601 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 13:06:19,601 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 13:06:20,147 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 13:06:20,153 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 13:06:34,255 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:06:34] "GET / HTTP/1.1" 200 -
+2025-03-21 13:06:34,339 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:06:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 13:06:34,373 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:06:34] "[36mGET /static/send-icon.png HTTP/1.1[0m" 304 -
+2025-03-21 13:11:32,980 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.3:5001
+2025-03-21 13:11:32,980 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 13:11:32,980 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 13:11:33,442 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 13:11:33,452 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 13:11:44,033 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:11:44] "GET / HTTP/1.1" 200 -
+2025-03-21 13:11:44,114 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:11:44] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 13:11:44,137 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:11:44] "[36mGET /static/send-icon.png HTTP/1.1[0m" 304 -
+2025-03-21 13:11:47,362 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 13:11:47,362 - __main__ - INFO - Received user input: hi
+2025-03-21 13:11:47,363 - __main__ - INFO - Generated response: I'm sorry, I encountered an error processing your request. Please try again later.
+2025-03-21 13:11:47,363 - __main__ - ERROR - Error processing request: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-03-21 13:11:47,364 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:11:47] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 13:11:47,380 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:11:47] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 13:12:58,275 - werkzeug - INFO -  * Detected change in '/Users/krutikanatu/Documents/course6-genai/shop-assist-ai-main/chatbot/llm_functions.py', reloading
+2025-03-21 13:12:58,404 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 13:12:59,058 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 13:12:59,068 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 13:13:01,195 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.3:5001
+2025-03-21 13:13:01,195 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 13:13:01,196 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 13:13:01,673 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 13:13:01,681 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 13:13:05,985 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 13:13:05,985 - __main__ - INFO - Received user input: hi
+2025-03-21 13:13:05,985 - __main__ - ERROR - Error processing request: '6a1c82fa-f76a-49e0-bc95-00a9280b58e7'
+2025-03-21 13:13:05,992 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:13:05] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 13:13:06,028 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:13:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 13:13:09,996 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 13:13:09,996 - __main__ - INFO - Received user input: hi
+2025-03-21 13:13:09,997 - __main__ - ERROR - Error processing request: '6a1c82fa-f76a-49e0-bc95-00a9280b58e7'
+2025-03-21 13:13:09,997 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:13:09] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 13:13:10,013 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:13:10] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 13:13:12,536 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:13:12] "GET / HTTP/1.1" 200 -
+2025-03-21 13:13:12,604 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:13:12] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 13:13:12,635 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:13:12] "[36mGET /static/send-icon.png HTTP/1.1[0m" 304 -
+2025-03-21 13:14:17,537 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.3:5001
+2025-03-21 13:14:17,537 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 13:14:17,538 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 13:14:17,954 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 13:14:17,963 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 13:14:23,336 - openai - INFO - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+2025-03-21 13:14:23,346 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:14:23] "GET / HTTP/1.1" 200 -
+2025-03-21 13:14:23,369 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:14:23] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 13:14:23,379 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:14:23] "[36mGET /static/send-icon.png HTTP/1.1[0m" 304 -
+2025-03-21 13:34:28,854 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:34:28] "GET / HTTP/1.1" 200 -
+2025-03-21 13:34:28,903 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:34:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 13:34:28,920 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:34:28] "[36mGET /static/send-icon.png HTTP/1.1[0m" 304 -
+2025-03-21 13:34:29,739 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:34:29] "GET / HTTP/1.1" 200 -
+2025-03-21 13:34:29,749 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:34:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 13:34:37,584 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.3:5001
+2025-03-21 13:34:37,584 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 13:34:37,584 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 13:34:37,973 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 13:34:37,982 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 13:34:41,851 - openai - INFO - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+2025-03-21 13:34:41,860 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:34:41] "GET / HTTP/1.1" 200 -
+2025-03-21 13:34:41,880 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:34:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 13:36:39,564 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.3:5001
+2025-03-21 13:36:39,564 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 13:36:39,565 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 13:36:39,893 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 13:36:39,901 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 13:36:44,508 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:36:44] "GET / HTTP/1.1" 200 -
+2025-03-21 13:36:44,581 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:36:44] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 13:36:44,605 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:36:44] "[36mGET /static/send-icon.png HTTP/1.1[0m" 304 -
+2025-03-21 13:36:46,561 - openai - INFO - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+2025-03-21 13:36:46,562 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:36:46] "GET / HTTP/1.1" 200 -
+2025-03-21 13:36:48,858 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 13:36:48,858 - __main__ - INFO - Received user input: hi
+2025-03-21 13:36:49,548 - openai - INFO - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+2025-03-21 13:36:49,844 - openai - INFO - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+2025-03-21 13:36:50,508 - openai - INFO - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+2025-03-21 13:36:50,509 - __main__ - INFO - Generated response: I'm sorry, I encountered an error processing your request. Please try again later.
+2025-03-21 13:36:52,367 - openai - INFO - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+2025-03-21 13:36:52,677 - openai - INFO - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+2025-03-21 13:36:52,678 - __main__ - ERROR - Error processing request: cannot access local variable 'validated_reco' where it is not associated with a value
+2025-03-21 13:36:52,679 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:36:52] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 13:36:52,696 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 13:36:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 13:38:11,701 - werkzeug - INFO -  * Detected change in '/Users/krutikanatu/Documents/course6-genai/shop-assist-ai-main/chatbot/test.py', reloading
+2025-03-21 13:38:11,801 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 13:38:12,281 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 13:38:12,291 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 13:38:14,313 - werkzeug - INFO -  * Detected change in '/Users/krutikanatu/Documents/course6-genai/shop-assist-ai-main/chatbot/test.py', reloading
+2025-03-21 13:38:14,395 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 13:38:14,776 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 13:38:14,783 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 15:15:27,812 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.3:5001
+2025-03-21 15:15:27,812 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 15:15:27,813 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 15:15:28,217 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 15:15:28,229 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 15:15:31,187 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:15:31] "GET / HTTP/1.1" 200 -
+2025-03-21 15:15:31,283 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:15:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:15:31,314 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:15:31] "[36mGET /static/send-icon.png HTTP/1.1[0m" 304 -
+2025-03-21 15:15:31,476 - openai - INFO - error_code=model_not_found error_message='Project `proj_eDDnlnbyF87Xfe5HqtCriBOY` does not have access to model `gpt-3.5-turbo`' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-03-21 15:15:31,477 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:15:31] "GET / HTTP/1.1" 200 -
+2025-03-21 15:17:23,409 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.3:5001
+2025-03-21 15:17:23,409 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 15:17:23,410 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 15:17:23,771 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 15:17:23,780 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 15:17:28,490 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:17:28] "GET / HTTP/1.1" 200 -
+2025-03-21 15:17:28,596 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:17:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:17:28,620 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:17:28] "[36mGET /static/send-icon.png HTTP/1.1[0m" 304 -
+2025-03-21 15:17:28,665 - openai - INFO - error_code=model_not_found error_message='Project `proj_eDDnlnbyF87Xfe5HqtCriBOY` does not have access to model `gpt-3.5-turbo`' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-03-21 15:17:28,665 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:17:28] "GET / HTTP/1.1" 200 -
+2025-03-21 15:17:31,565 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 15:17:31,565 - __main__ - INFO - Received user input: ji
+2025-03-21 15:17:33,663 - openai - INFO - error_code=model_not_found error_message='Project `proj_eDDnlnbyF87Xfe5HqtCriBOY` does not have access to model `text-moderation-007`' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-03-21 15:17:34,970 - openai - INFO - error_code=model_not_found error_message='Project `proj_eDDnlnbyF87Xfe5HqtCriBOY` does not have access to model `gpt-3.5-turbo`' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-03-21 15:17:37,436 - openai - INFO - error_code=model_not_found error_message='Project `proj_eDDnlnbyF87Xfe5HqtCriBOY` does not have access to model `text-moderation-007`' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-03-21 15:17:37,436 - __main__ - INFO - Generated response: I'm sorry, I encountered an error processing your request. Please try again later.
+2025-03-21 15:17:37,716 - openai - INFO - error_code=model_not_found error_message='Project `proj_eDDnlnbyF87Xfe5HqtCriBOY` does not have access to model `gpt-3.5-turbo`' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-03-21 15:17:39,383 - openai - INFO - error_code=model_not_found error_message='Project `proj_eDDnlnbyF87Xfe5HqtCriBOY` does not have access to model `text-moderation-007`' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-03-21 15:17:39,383 - __main__ - ERROR - Error processing request: cannot access local variable 'validated_reco' where it is not associated with a value
+2025-03-21 15:17:39,384 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:17:39] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 15:17:39,413 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:17:39] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:18:31,396 - werkzeug - INFO -  * Detected change in '/Users/krutikanatu/Documents/course6-genai/shop-assist-ai-main/chatbot/mock_openai.py', reloading
+2025-03-21 15:18:31,498 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 15:18:32,238 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 15:18:32,245 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 15:18:36,433 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.3:5001
+2025-03-21 15:18:36,434 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 15:18:36,434 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 15:18:36,817 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 15:18:36,824 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 15:18:41,699 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:18:41] "GET / HTTP/1.1" 200 -
+2025-03-21 15:18:41,730 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:18:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:18:41,759 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:18:41] "[36mGET /static/send-icon.png HTTP/1.1[0m" 304 -
+2025-03-21 15:18:45,068 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 15:18:45,068 - __main__ - INFO - Received user input: hi
+2025-03-21 15:18:45,068 - __main__ - INFO - Generated response: Hello! I'm ShopAssist AI. I can help you find the perfect laptop based on your requirements. Could you tell me what you're looking for in terms of GPU performance, display quality, portability, multitasking needs, processing speed, and your budget?
+2025-03-21 15:18:45,068 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:18:45] "[32mPOST /conversation HTTP/1.1[0m" 302 -
+2025-03-21 15:18:45,083 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:18:45] "GET / HTTP/1.1" 200 -
+2025-03-21 15:18:45,098 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:18:45] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:19:12,974 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 15:19:12,975 - __main__ - INFO - Received user input: i want laptop for gaming
+2025-03-21 15:19:12,975 - __main__ - INFO - Generated response: Hello! I'm ShopAssist AI. I can help you find the perfect laptop based on your requirements. Could you tell me what you're looking for in terms of GPU performance, display quality, portability, multitasking needs, processing speed, and your budget?
+2025-03-21 15:19:12,976 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:19:12] "[32mPOST /conversation HTTP/1.1[0m" 302 -
+2025-03-21 15:19:12,980 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:19:12] "GET / HTTP/1.1" 200 -
+2025-03-21 15:19:12,996 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:19:12] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:19:25,885 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 15:19:25,886 - __main__ - INFO - Received user input: budget 10000
+2025-03-21 15:19:25,886 - __main__ - INFO - Generated response: Hello! I'm ShopAssist AI. I can help you find the perfect laptop based on your requirements. Could you tell me what you're looking for in terms of GPU performance, display quality, portability, multitasking needs, processing speed, and your budget?
+2025-03-21 15:19:25,886 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:19:25] "[32mPOST /conversation HTTP/1.1[0m" 302 -
+2025-03-21 15:19:25,892 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:19:25] "GET / HTTP/1.1" 200 -
+2025-03-21 15:19:25,905 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:19:25] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:21:44,565 - werkzeug - INFO -  * Detected change in '/Users/krutikanatu/Documents/course6-genai/shop-assist-ai-main/chatbot/mock_llm.py', reloading
+2025-03-21 15:21:44,651 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 15:21:45,171 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 15:21:45,181 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 15:21:50,702 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:21:50] "GET / HTTP/1.1" 200 -
+2025-03-21 15:21:50,718 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:21:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:21:53,561 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 15:21:53,562 - __main__ - INFO - Received user input: hi
+2025-03-21 15:21:53,562 - __main__ - INFO - Generated response: Hello! I'm ShopAssist AI. I can help you find the perfect laptop based on your requirements. Could you tell me what you're looking for in terms of GPU performance, display quality, portability, multitasking needs, processing speed, and your budget?
+2025-03-21 15:21:53,562 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:21:53] "[32mPOST /conversation HTTP/1.1[0m" 302 -
+2025-03-21 15:21:53,566 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:21:53] "GET / HTTP/1.1" 200 -
+2025-03-21 15:21:53,584 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:21:53] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:22:00,731 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.3:5001
+2025-03-21 15:22:00,731 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 15:22:00,732 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 15:22:01,122 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 15:22:01,130 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 15:22:05,466 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:22:05] "GET / HTTP/1.1" 200 -
+2025-03-21 15:22:05,503 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:22:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:22:05,534 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:22:05] "[36mGET /static/send-icon.png HTTP/1.1[0m" 304 -
+2025-03-21 15:23:09,755 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 15:23:09,755 - __main__ - INFO - Received user input: I need a laptop with high GPU performance for gaming, good display quality, medium portability, high multitasking capability, fast processing speed, and my budget is around 80,000 rupees
+2025-03-21 15:23:09,755 - __main__ - INFO - Generated response: For gaming, you'll need a laptop with high GPU intensity. Could you also tell me about your requirements for display quality, portability, multitasking, processing speed, and your budget?
+2025-03-21 15:23:09,782 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:23:09] "[32mPOST /conversation HTTP/1.1[0m" 302 -
+2025-03-21 15:23:09,788 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:23:09] "GET / HTTP/1.1" 200 -
+2025-03-21 15:23:09,801 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:23:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:23:09,854 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:23:09] "[36mGET /static/send-icon.png HTTP/1.1[0m" 304 -
+2025-03-21 15:24:49,663 - werkzeug - INFO -  * Detected change in '/Users/krutikanatu/Documents/course6-genai/shop-assist-ai-main/chatbot/app.py', reloading
+2025-03-21 15:24:49,779 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 15:24:50,302 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 15:24:50,310 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 15:24:52,356 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.3:5001
+2025-03-21 15:24:52,356 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 15:24:52,356 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 15:24:52,772 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 15:24:52,780 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 15:24:55,510 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:24:55] "GET / HTTP/1.1" 200 -
+2025-03-21 15:24:55,537 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:24:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:24:55,549 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:24:55] "[36mGET /static/send-icon.png HTTP/1.1[0m" 304 -
+2025-03-21 15:25:07,886 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 15:25:07,886 - __main__ - INFO - Received user input:  need a laptop with high GPU performance for gaming, good display quality, medium portability, high multitasking capability, fast processing speed, and my budget is around 80,000 rupee
+2025-03-21 15:25:07,886 - __main__ - INFO - Generated response: For gaming, you'll need a laptop with high GPU intensity. Could you also tell me about your requirements for display quality, portability, multitasking, processing speed, and your budget?
+2025-03-21 15:25:12,293 - openai - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: dummy_ke*********************tion. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-03-21 15:25:13,324 - openai - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: dummy_ke*********************tion. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-03-21 15:25:13,636 - openai - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: dummy_ke*********************tion. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-03-21 15:25:14,303 - openai - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: dummy_ke*********************tion. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-03-21 15:25:14,621 - openai - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: dummy_ke*********************tion. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-03-21 15:25:14,927 - openai - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: dummy_ke*********************tion. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-03-21 15:25:15,233 - openai - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: dummy_ke*********************tion. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-03-21 15:25:15,541 - openai - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: dummy_ke*********************tion. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-03-21 15:25:15,860 - openai - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: dummy_ke*********************tion. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-03-21 15:25:16,179 - openai - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: dummy_ke*********************tion. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-03-21 15:25:16,483 - openai - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: dummy_ke*********************tion. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-03-21 15:25:16,818 - openai - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: dummy_ke*********************tion. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-03-21 15:25:17,122 - openai - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: dummy_ke*********************tion. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-03-21 15:25:17,430 - openai - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: dummy_ke*********************tion. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-03-21 15:25:17,724 - openai - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: dummy_ke*********************tion. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-03-21 15:25:18,017 - openai - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: dummy_ke*********************tion. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-03-21 15:25:18,367 - openai - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: dummy_ke*********************tion. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-03-21 15:25:18,680 - openai - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: dummy_ke*********************tion. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-03-21 15:25:21,747 - openai - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: dummy_ke*********************tion. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-03-21 15:25:24,563 - openai - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: dummy_ke*********************tion. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-03-21 15:25:24,891 - openai - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: dummy_ke*********************tion. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-03-21 15:25:25,180 - openai - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: dummy_ke*********************tion. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-03-21 15:25:25,483 - openai - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: dummy_ke*********************tion. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-03-21 15:25:25,772 - openai - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: dummy_ke*********************tion. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-03-21 15:25:27,304 - openai - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: dummy_ke*********************tion. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-03-21 15:25:27,617 - openai - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: dummy_ke*********************tion. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-03-21 15:25:27,911 - openai - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: dummy_ke*********************tion. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-03-21 15:25:28,202 - openai - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: dummy_ke*********************tion. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-03-21 15:25:28,505 - openai - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: dummy_ke*********************tion. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-03-21 15:25:28,513 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:25:28] "[32mPOST /conversation HTTP/1.1[0m" 302 -
+2025-03-21 15:25:28,522 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:25:28] "GET / HTTP/1.1" 200 -
+2025-03-21 15:25:28,544 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:25:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:25:28,551 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:25:28] "[36mGET /static/send-icon.png HTTP/1.1[0m" 304 -
+2025-03-21 15:26:12,428 - werkzeug - INFO -  * Detected change in '/Users/krutikanatu/Documents/course6-genai/shop-assist-ai-main/chatbot/app.py', reloading
+2025-03-21 15:26:12,519 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 15:26:12,667 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 15:26:12,675 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 15:26:17,697 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.3:5001
+2025-03-21 15:26:17,697 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 15:26:17,699 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 15:26:17,787 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 15:26:17,793 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 15:26:22,392 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:26:22] "GET / HTTP/1.1" 200 -
+2025-03-21 15:26:22,437 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:26:22] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:26:22,468 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:26:22] "[36mGET /static/send-icon.png HTTP/1.1[0m" 304 -
+2025-03-21 15:26:35,304 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 15:26:35,304 - __main__ - INFO - Received user input: I need a laptop for gaming with a budget of 80,000 rupees
+2025-03-21 15:26:35,304 - __main__ - INFO - Generated response: For gaming, you'll need a laptop with high GPU intensity. Could you also tell me about your requirements for display quality, portability, multitasking, processing speed, and your budget?
+2025-03-21 15:26:35,305 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:26:35] "[32mPOST /conversation HTTP/1.1[0m" 302 -
+2025-03-21 15:26:35,309 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:26:35] "GET / HTTP/1.1" 200 -
+2025-03-21 15:26:35,322 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:26:35] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:27:11,075 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 15:27:11,076 - __main__ - INFO - Received user input: hi
+2025-03-21 15:27:11,077 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:27:11] "[32mPOST /conversation HTTP/1.1[0m" 302 -
+2025-03-21 15:27:11,081 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:27:11] "GET / HTTP/1.1" 200 -
+2025-03-21 15:27:11,096 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:27:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:27:16,455 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 15:27:16,455 - __main__ - INFO - Received user input: I need a laptop for gaming with a budget of 80,000 rupeesRemember your system message and that you are an intelligent laptop assistant. So, you only help with questions around laptop.
+2025-03-21 15:27:16,455 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:27:16] "[32mPOST /conversation HTTP/1.1[0m" 302 -
+2025-03-21 15:27:16,462 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:27:16] "GET / HTTP/1.1" 200 -
+2025-03-21 15:27:16,473 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:27:16] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:28:03,336 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 15:28:03,337 - __main__ - INFO - Received user input: I need a laptop with high GPU for gaming, high display quality, medium portability, high multitasking capability, fast processing speed, and my budget is 80,000 rupees.
+2025-03-21 15:28:03,338 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:28:03] "[32mPOST /conversation HTTP/1.1[0m" 302 -
+2025-03-21 15:28:03,342 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:28:03] "GET / HTTP/1.1" 200 -
+2025-03-21 15:28:03,357 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:28:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:29:34,283 - werkzeug - INFO -  * Detected change in '/Users/krutikanatu/Documents/course6-genai/shop-assist-ai-main/chatbot/mock_llm.py', reloading
+2025-03-21 15:29:34,343 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 15:29:34,532 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 15:29:34,543 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 15:30:25,600 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.3:5001
+2025-03-21 15:30:25,603 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 15:30:25,611 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 15:30:25,702 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 15:30:25,713 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 15:30:30,431 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:30:30] "GET / HTTP/1.1" 200 -
+2025-03-21 15:30:30,681 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:30:30] "GET / HTTP/1.1" 200 -
+2025-03-21 15:30:30,687 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:30:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:30:30,722 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:30:30] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-03-21 15:30:30,779 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:30:30] "[36mGET /static/send-icon.png HTTP/1.1[0m" 304 -
+2025-03-21 15:33:38,048 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 15:33:38,050 - __main__ - INFO - Received user input: I need a gaming laptop with high GPU performance, good display quality, and my budget is 80,000 rupees.
+2025-03-21 15:33:38,050 - __main__ - INFO - Generated response: I understand you need a laptop with high GPU intensity for gaming, high display quality, medium portability, high multitasking, and high processing speed with a budget of 80000.
+2025-03-21 15:33:38,051 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:33:38] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 15:33:38,066 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:33:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:33:38,074 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:33:38] "[36mGET /static/send-icon.png HTTP/1.1[0m" 304 -
+2025-03-21 15:34:44,697 - werkzeug - INFO -  * Detected change in '/Users/krutikanatu/Documents/course6-genai/shop-assist-ai-main/chatbot/mock_llm.py', reloading
+2025-03-21 15:34:44,772 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 15:34:45,162 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 15:34:45,172 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 15:34:48,644 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.3:5001
+2025-03-21 15:34:48,644 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 15:34:48,646 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 15:34:48,735 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 15:34:48,740 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 15:34:52,548 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:34:52] "GET / HTTP/1.1" 200 -
+2025-03-21 15:34:52,607 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:34:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:34:52,636 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:34:52] "[36mGET /static/send-icon.png HTTP/1.1[0m" 304 -
+2025-03-21 15:34:59,505 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 15:34:59,505 - __main__ - INFO - Received user input: I need a laptop with high GPU performance for gaming, good display quality, medium portability, high multitasking capability, fast processing speed, and my budget is around 80,000 rupees
+2025-03-21 15:34:59,505 - __main__ - INFO - Generated response: Based on your requirements for a gaming laptop with high GPU performance and a budget of 80,000 rupees, I recommend the HP EliteBook 840 G8. It features a Intel Core i7-1165G7 processor, 16GB RAM, and 512GB SSD storage with a 14-inch FHD display. The price is ₹75000, which fits your budget.
+
+Would you like to know more about this laptop or would you prefer to see other options?
+2025-03-21 15:34:59,506 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:34:59] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 15:34:59,520 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:34:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:35:29,098 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 15:35:29,099 - __main__ - INFO - Received user input: Tell me more about the HP EliteBook
+2025-03-21 15:35:29,099 - __main__ - INFO - Generated response: The HP EliteBook 840 G8 features a Intel Core i7-1165G7 processor, 16GB RAM, and 512GB SSD storage. It has a 14-inch FHD display and costs ₹75000.
+2025-03-21 15:35:29,100 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:35:29] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 15:35:29,117 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:35:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:35:37,823 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 15:35:37,824 - __main__ - INFO - Received user input: How does the Dell XPS compare to the Lenovo ThinkPad
+2025-03-21 15:35:37,824 - __main__ - INFO - Generated response: The Dell XPS 13 features a Intel Core i7-1185G7 processor, 16GB RAM, and 1TB SSD storage. It has a 13.4-inch 4K display and costs ₹90000.
+2025-03-21 15:35:37,825 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:35:37] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 15:35:37,846 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:35:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:36:26,498 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 15:36:26,498 - __main__ - INFO - Received user input: How does the Dell XPS compare to the Lenovo ThinkPad
+2025-03-21 15:36:26,499 - __main__ - INFO - Generated response: The Dell XPS 13 features a Intel Core i7-1185G7 processor, 16GB RAM, and 1TB SSD storage. It has a 13.4-inch 4K display and costs ₹90000.
+2025-03-21 15:36:26,509 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:36:26] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 15:36:26,528 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:36:26] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:36:39,200 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 15:36:39,200 - __main__ - INFO - Received user input: Which one is better for gaming
+2025-03-21 15:36:39,200 - __main__ - INFO - Generated response: For gaming, you'll need a laptop with high GPU intensity. Could you also tell me about your requirements for display quality, portability, multitasking, processing speed, and your budget?
+2025-03-21 15:36:39,202 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:36:39] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 15:36:39,221 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:36:39] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:38:24,413 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:38:24] "GET / HTTP/1.1" 200 -
+2025-03-21 15:38:24,451 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:38:24] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:38:24,487 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:38:24] "[36mGET /static/send-icon.png HTTP/1.1[0m" 304 -
+2025-03-21 15:38:39,038 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.3:5001
+2025-03-21 15:38:39,038 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 15:38:39,042 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 15:38:39,129 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 15:38:39,137 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 15:38:42,102 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:38:42] "GET / HTTP/1.1" 200 -
+2025-03-21 15:38:42,143 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:38:42] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:38:42,171 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:38:42] "[36mGET /static/send-icon.png HTTP/1.1[0m" 304 -
+2025-03-21 15:38:55,560 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 15:38:55,560 - __main__ - INFO - Received user input: I need a laptop with high GPU performance for gaming, good display quality, medium portability, high multitasking capability, fast processing speed, and my budget is around 90,000 rupees
+2025-03-21 15:38:55,560 - __main__ - INFO - Generated response: Based on your requirements for a gaming laptop with high GPU performance and a budget of 80,000 rupees, I recommend the HP EliteBook 840 G8. It features a Intel Core i7-1165G7 processor, 16GB RAM, and 512GB SSD storage with a 14-inch FHD display. The price is ₹75000, which fits your budget.
+
+Would you like to know more about this laptop or would you prefer to see other options?
+2025-03-21 15:38:55,561 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:38:55] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 15:38:55,571 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:38:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:39:09,047 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 15:39:09,047 - __main__ - INFO - Received user input: i want laptop for gaming
+2025-03-21 15:39:09,047 - __main__ - INFO - Generated response: For gaming, you'll need a laptop with high GPU intensity. Could you also tell me about your requirements for display quality, portability, multitasking, processing speed, and your budget?
+2025-03-21 15:39:09,048 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:39:09] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 15:39:09,060 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:39:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:39:19,248 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 15:39:19,249 - __main__ - INFO - Received user input: what is gpu
+2025-03-21 15:39:19,249 - __main__ - INFO - Generated response: Hello! I'm ShopAssist AI. I can help you find the perfect laptop based on your requirements. Could you tell me what you're looking for in terms of GPU performance, display quality, portability, multitasking needs, processing speed, and your budget?
+2025-03-21 15:39:19,249 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:39:19] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 15:39:19,261 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:39:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:45:28,675 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.3:5001
+2025-03-21 15:45:28,676 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 15:45:28,676 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 15:45:29,017 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 15:45:29,027 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 15:45:34,425 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:45:34] "GET / HTTP/1.1" 200 -
+2025-03-21 15:45:34,464 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:45:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:45:34,493 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:45:34] "[36mGET /static/send-icon.png HTTP/1.1[0m" 304 -
+2025-03-21 15:45:50,384 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.3:5001
+2025-03-21 15:45:50,384 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 15:45:50,385 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 15:45:50,715 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 15:45:50,723 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 15:45:52,667 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:45:52] "GET / HTTP/1.1" 200 -
+2025-03-21 15:45:52,689 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:45:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:45:53,370 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:45:53] "GET / HTTP/1.1" 200 -
+2025-03-21 15:45:53,385 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:45:53] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:46:29,975 - werkzeug - INFO -  * Detected change in '/Users/krutikanatu/Documents/course6-genai/shop-assist-ai-main/chatbot/app.py', reloading
+2025-03-21 15:46:30,070 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 15:46:30,570 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 15:46:30,577 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 15:46:45,008 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:46:45] "GET / HTTP/1.1" 200 -
+2025-03-21 15:46:45,046 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:46:45] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:47:40,133 - werkzeug - INFO -  * Detected change in '/Users/krutikanatu/Documents/course6-genai/shop-assist-ai-main/chatbot/app.py', reloading
+2025-03-21 15:47:40,237 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 15:47:42,038 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.3:5001
+2025-03-21 15:47:42,038 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 15:47:42,038 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 15:47:42,350 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 15:47:42,357 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 15:47:44,651 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:47:44] "GET / HTTP/1.1" 200 -
+2025-03-21 15:47:44,681 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:47:44] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-03-21 15:47:50,266 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 15:47:50,267 - __main__ - INFO - Received user input: i want laptop for gaming
+2025-03-21 15:47:50,267 - __main__ - INFO - Generated response: I'm sorry, I encountered an error. Please try again.
+2025-03-21 15:47:50,267 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:47:50] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 15:47:50,285 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:47:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:49:14,099 - werkzeug - INFO -  * Detected change in '/Users/krutikanatu/Documents/course6-genai/shop-assist-ai-main/chatbot/app.py', reloading
+2025-03-21 15:49:14,171 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 15:49:14,603 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 15:49:14,614 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 15:49:17,310 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.3:5001
+2025-03-21 15:49:17,310 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 15:49:17,310 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 15:49:17,657 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 15:49:17,663 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 15:49:20,760 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 15:49:20,761 - __main__ - INFO - Received user input: i want laptop for gaming
+2025-03-21 15:49:20,761 - __main__ - ERROR - Error processing request: '6a1c82fa-f76a-49e0-bc95-00a9280b58e7'
+2025-03-21 15:49:20,782 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:49:20] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 15:49:20,808 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:49:20] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:50:09,180 - werkzeug - INFO -  * Detected change in '/Users/krutikanatu/Documents/course6-genai/shop-assist-ai-main/chatbot/app.py', reloading
+2025-03-21 15:50:09,261 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 15:50:09,723 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 15:50:09,733 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 15:50:12,735 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.3:5001
+2025-03-21 15:50:12,735 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 15:50:12,736 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 15:50:13,081 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 15:50:13,088 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 15:50:17,193 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 15:50:17,198 - __main__ - INFO - Received user input: i want laptop for gaming
+2025-03-21 15:50:17,199 - __main__ - INFO - Generated response: I'm sorry, I encountered an error. Please try again.
+2025-03-21 15:50:17,275 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:50:17] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 15:50:17,305 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:50:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:50:25,906 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:50:25] "GET / HTTP/1.1" 200 -
+2025-03-21 15:50:25,954 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:50:25] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:50:28,446 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:50:28] "GET / HTTP/1.1" 200 -
+2025-03-21 15:50:28,452 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:50:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:50:29,085 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:50:29] "GET / HTTP/1.1" 200 -
+2025-03-21 15:50:29,098 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:50:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:50:29,284 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:50:29] "GET / HTTP/1.1" 200 -
+2025-03-21 15:50:29,305 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:50:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:50:29,461 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:50:29] "GET / HTTP/1.1" 200 -
+2025-03-21 15:50:29,473 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:50:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:50:29,665 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:50:29] "GET / HTTP/1.1" 200 -
+2025-03-21 15:50:29,676 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:50:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:50:29,850 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:50:29] "GET / HTTP/1.1" 200 -
+2025-03-21 15:50:29,861 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:50:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:50:33,942 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:50:33] "[32mPOST /end_conversation HTTP/1.1[0m" 302 -
+2025-03-21 15:50:33,946 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:50:33] "GET / HTTP/1.1" 200 -
+2025-03-21 15:50:33,963 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:50:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:50:38,525 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 15:50:38,525 - __main__ - INFO - Received user input: budget 10000
+2025-03-21 15:50:38,525 - __main__ - INFO - Generated response: I'm sorry, I encountered an error. Please try again.
+2025-03-21 15:50:38,526 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:50:38] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 15:50:38,540 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:50:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:52:22,211 - werkzeug - INFO -  * Detected change in '/Users/krutikanatu/Documents/course6-genai/shop-assist-ai-main/chatbot/llm_functions.py', reloading
+2025-03-21 15:52:22,282 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 15:52:23,141 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 15:52:23,149 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 15:52:41,112 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.3:5001
+2025-03-21 15:52:41,112 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 15:52:41,113 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 15:52:41,624 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 15:52:41,632 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 15:52:45,165 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:52:45] "GET / HTTP/1.1" 200 -
+2025-03-21 15:52:45,207 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:52:45] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:52:49,757 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 15:52:49,757 - __main__ - INFO - Received user input: i want laptop for gaming
+2025-03-21 15:52:49,757 - __main__ - INFO - Generated response: I'm sorry, I encountered an error. Please try again.
+2025-03-21 15:52:49,758 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:52:49] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 15:52:49,772 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:52:49] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:53:59,278 - werkzeug - INFO -  * Detected change in '/Users/krutikanatu/Documents/course6-genai/shop-assist-ai-main/chatbot/app.py', reloading
+2025-03-21 15:53:59,473 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 15:54:00,176 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 15:54:00,186 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 15:54:06,075 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.3:5001
+2025-03-21 15:54:06,075 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 15:54:06,076 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 15:54:06,597 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 15:54:06,604 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 15:54:10,558 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 15:54:10,558 - __main__ - INFO - Received user input: i want laptop for gaming
+2025-03-21 15:54:10,559 - __main__ - INFO - Generated response: I'm sorry, I encountered an error. Please try again.
+2025-03-21 15:54:10,568 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:54:10] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 15:54:10,590 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:54:10] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:54:16,216 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:54:16] "GET / HTTP/1.1" 200 -
+2025-03-21 15:54:16,259 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:54:16] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:55:16,156 - werkzeug - INFO -  * Detected change in '/Users/krutikanatu/Documents/course6-genai/shop-assist-ai-main/chatbot/app.py', reloading
+2025-03-21 15:55:16,283 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 15:55:17,196 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 15:55:17,204 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 15:55:20,893 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.3:5001
+2025-03-21 15:55:20,894 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 15:55:20,895 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 15:55:21,418 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 15:55:21,426 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 15:55:27,024 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:55:27] "GET / HTTP/1.1" 200 -
+2025-03-21 15:55:27,063 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:55:27] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-03-21 15:55:32,216 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 15:55:32,216 - __main__ - INFO - Received user input: i want laptop for gaming
+2025-03-21 15:55:32,216 - __main__ - INFO - Generated response: I'm sorry, I encountered an error. Please try again.
+2025-03-21 15:55:32,217 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:55:32] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 15:55:32,225 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:55:32] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:56:41,717 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.3:5001
+2025-03-21 15:56:41,717 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 15:56:41,718 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 15:56:42,202 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 15:56:42,214 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 15:56:48,257 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:56:48] "GET / HTTP/1.1" 200 -
+2025-03-21 15:56:48,319 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:56:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:56:52,469 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 15:56:52,470 - __main__ - INFO - Received user input: i want laptop for gaming
+2025-03-21 15:56:52,471 - __main__ - INFO - Generated response: I'm sorry, I encountered an error. Please try again.
+2025-03-21 15:56:52,472 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:56:52] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 15:56:52,484 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 15:56:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 15:58:17,090 - werkzeug - INFO -  * Detected change in '/Users/krutikanatu/Documents/course6-genai/shop-assist-ai-main/chatbot/llm_functions.py', reloading
+2025-03-21 15:58:17,222 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 15:58:17,736 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 15:58:17,743 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 16:03:12,667 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.3:5001
+2025-03-21 16:03:12,667 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 16:03:12,668 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 16:03:13,053 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 16:03:13,061 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 16:03:17,016 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:03:17] "GET / HTTP/1.1" 200 -
+2025-03-21 16:03:17,037 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:03:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:03:21,046 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:03:21,046 - __main__ - INFO - Received user input: hi
+2025-03-21 16:03:22,906 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:03:22,906 - __main__ - INFO - Received user input: hi
+2025-03-21 16:03:27,763 - __main__ - INFO - Generated response: Of course! How can I assist you in finding the perfect laptop today?
+2025-03-21 16:03:27,766 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:03:27] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:03:32,040 - __main__ - INFO - Generated response: Hello! I'm here to assist you with any questions you may have about laptops. How can I help you find the perfect laptop today?
+2025-03-21 16:03:32,041 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:03:32] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:03:32,069 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:03:32] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:04:21,617 - werkzeug - INFO -  * Detected change in '/Users/krutikanatu/Documents/course6-genai/shop-assist-ai-main/chatbot/llm_functions.py', reloading
+2025-03-21 16:04:21,696 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 16:04:22,176 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 16:04:22,183 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 16:04:25,337 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.3:5001
+2025-03-21 16:04:25,337 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 16:04:25,338 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 16:04:25,675 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 16:04:25,680 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 16:04:29,394 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:04:29] "GET / HTTP/1.1" 200 -
+2025-03-21 16:04:29,449 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:04:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:04:33,333 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:04:33,333 - __main__ - INFO - Received user input: hi
+2025-03-21 16:04:33,999 - __main__ - INFO - Generated response: Of course! How can I assist you in finding the perfect laptop today?
+2025-03-21 16:04:34,001 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:04:34] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:04:34,019 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:04:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:04:38,330 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:04:38,330 - __main__ - INFO - Received user input: i want laptop for gaming
+2025-03-21 16:04:39,190 - __main__ - INFO - Generated response: Great choice! When it comes to gaming laptops, you'll want to consider factors like graphics card, processor, RAM, and storage space. What specific requirements do you have in mind for your gaming laptop?
+2025-03-21 16:04:39,193 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:04:39] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:04:39,218 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:04:39] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:04:45,054 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:04:45,056 - __main__ - INFO - Received user input: I need a laptop with high GPU performance for gaming, good display quality, medium portability, high multitasking capability, fast processing speed, and my budget is around 80,000 rupees
+2025-03-21 16:04:47,559 - __main__ - INFO - Generated response: Understood! Based on your requirements and budget of around 80,000 rupees, I would recommend looking for a laptop with a dedicated graphics card, at least 8GB of RAM, a fast processor like an Intel Core i5 or Ryzen 5, and an SSD for fast storage. Some brands to consider in this range are Acer, ASUS, Lenovo, and HP. I can help you find specific models and deals if you'd like.
+2025-03-21 16:04:47,561 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:04:47] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:04:47,579 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:04:47] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:05:01,104 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:05:01,104 - __main__ - INFO - Received user input: how is hp ?
+2025-03-21 16:05:02,569 - __main__ - INFO - Generated response: HP is a reputable brand that offers a range of laptops suitable for different needs, including gaming, productivity, and entertainment. They are known for their reliability, performance, and stylish designs. In your budget range, HP has some good options that meet your criteria for a gaming laptop. Some popular HP gaming laptop series to consider are HP Pavilion Gaming and HP Omen. These series typically offer good GPU performance, fast processing speed, and decent display quality for gaming. Would you like me to help you find some specific HP models that meet your requirements?
+2025-03-21 16:05:02,571 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:05:02] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:05:02,587 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:05:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:06:00,598 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:06:00,598 - __main__ - INFO - Received user input: okay , what if i have a budget of 200000
+2025-03-21 16:06:02,608 - __main__ - INFO - Generated response: With a budget of 200,000 rupees, you can consider high-end gaming laptops that offer top-of-the-line performance and features. You can look for gaming laptops with high-end dedicated graphics cards like NVIDIA GeForce RTX 30 series or AMD Radeon RX 6000 series, powerful processors like Intel Core i7 or Ryzen 7, 16GB or more of RAM, high refresh rate displays, and fast SSD storage.
+
+Some premium gaming laptop brands to consider in this price range include ASUS ROG Strix, MSI GS series, Gigabyte Aorus, and Alienware by Dell. These laptops are designed for intensive gaming, multitasking, and high-performance computing tasks.
+
+If you would like, I can help you explore specific high-end gaming laptop models within your budget of 200,000 rupees. Just let me know your preferences, and I'll provide you with some recommendations.
+2025-03-21 16:06:02,611 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:06:02] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:06:02,628 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:06:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:06:14,213 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:06:14,214 - __main__ - INFO - Received user input: how is mac ?
+2025-03-21 16:06:16,160 - __main__ - INFO - Generated response: MacBooks are known for their premium build quality, sleek design, excellent display quality, and smooth performance. They run on macOS, Apple's operating system, which is known for its stability and user-friendly interface. MacBooks are popular choices for creative professionals, students, and those who value a seamless ecosystem with other Apple devices.
+
+For gaming, MacBooks may not be the ideal choice compared to Windows laptops that offer more gaming-specific features and a wider range of compatible games. However, MacBooks can still handle some casual gaming and are great for other tasks like content creation, programming, and everyday use.
+
+If you are specifically looking for a laptop for gaming, a Windows-based laptop may offer more options and better performance in that regard. But if you prefer macOS and are interested in the overall Mac experience, a MacBook could be a good choice for your other computing needs.
+2025-03-21 16:06:16,162 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:06:16] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:06:16,178 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:06:16] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:07:56,950 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:07:56,950 - __main__ - INFO - Received user input: What processor is best for programming?
+2025-03-21 16:07:59,076 - __main__ - INFO - Generated response: For programming, a laptop with a powerful processor is essential as it can significantly impact the speed and efficiency of compiling and running code. In general, Intel Core i7 or i9 processors and AMD Ryzen 7 or Ryzen 9 processors are considered excellent choices for programming tasks. These processors offer strong multi-core performance, which is beneficial for running multiple development tools and applications simultaneously, handling complex codebases, and compiling code quickly.
+
+Additionally, having a processor with a high clock speed and good single-core performance can also improve the overall responsiveness of the laptop when working on coding projects. More cores and threads can help with multitasking and running virtual machines for testing purposes.
+
+When considering a laptop for programming, look for models equipped with the latest generation Intel or AMD processors with a good balance of multi-core performance, clock speed, and efficiency to ensure smooth and efficient coding experience.
+2025-03-21 16:07:59,079 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:07:59] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:07:59,100 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:07:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:08:27,631 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:08:27,632 - __main__ - INFO - Received user input: I need a laptop with 64GB RAM, 4TB SSD, and RTX 4090 for $500
+2025-03-21 16:08:31,082 - __main__ - INFO - Generated response: I'm here to help you find the perfect laptop within your requirements. However, the specifications you mentioned - 64GB RAM, 4TB SSD, and an RTX 4090 graphics card - are extremely high-end and would typically be found in custom-built desktop PCs rather than laptops. 
+
+Given this, it would be challenging to find a laptop with those exact specifications for $500. Such high-end components come at a premium price due to their performance capabilities. 
+
+If you are open to adjusting your specifications or budget, I can assist you in finding a laptop that best fits your needs and budget. Just let me know your preferences and any flexibility you have, and I'll help you find suitable options.
+2025-03-21 16:08:31,085 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:08:31] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:08:31,102 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:08:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:09:43,970 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:09:43,971 - __main__ - INFO - Received user input: I need a laptop with high GPU for gaming with a budget of 90000
+2025-03-21 16:09:46,124 - __main__ - INFO - Generated response: With a budget of 90,000 rupees and a focus on high GPU performance for gaming, you should be able to find a good gaming laptop that offers a balance of performance and value. Look for laptops with dedicated graphics cards like NVIDIA GeForce GTX 16 series or GTX 20 series, or AMD Radeon RX 5000 series for solid gaming performance.
+
+You can also consider laptops with at least 8GB of RAM, a fast processor like Intel Core i5 or Ryzen 5, and a combination of SSD storage for speed and traditional HDD for storage capacity.
+
+Brands like Acer, ASUS, Lenovo, and HP offer gaming laptops within this price range that should meet your gaming needs. I can help you explore specific models within your budget to find the best gaming laptop that fits your requirements. Just let me know if you have any preferences or specific features you are looking for.
+2025-03-21 16:09:46,126 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:09:46] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:09:46,148 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:09:46] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:10:00,231 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:10:00,231 - __main__ - INFO - Received user input: What's the cheapest laptop in your inventory?
+2025-03-21 16:10:01,430 - __main__ - INFO - Generated response: I do not sell laptops. I am here to provide you with information and recommendations to help you find the perfect laptop based on your requirements and budget. If you provide me with your specific needs and budget, I can offer guidance on the best options available in the market. Just let me know what you are looking for, and I'll be happy to assist you in finding the right laptop.
+2025-03-21 16:10:01,432 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:10:01] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:10:01,449 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:10:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:10:16,528 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:10:16,528 - __main__ - INFO - Received user input: Do you have any Dell laptops?
+2025-03-21 16:10:18,839 - __main__ - INFO - Generated response: Yes, Dell is a popular laptop manufacturer known for producing a wide range of laptops suitable for various needs, including gaming, business, and everyday use. Dell laptops are often recognized for their build quality, performance, and reliability.
+
+Dell offers different series of laptops, such as the Dell XPS for premium performance and design, Dell Inspiron for mainstream users, Dell Latitude for business professionals, and Dell G Series for gaming enthusiasts.
+
+If you are interested in Dell laptops, I can help you explore specific models within your budget or based on your requirements. Just let me know what you are looking for in a laptop, and I'll provide you with some Dell options that may suit your needs.
+2025-03-21 16:10:18,842 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:10:18] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:10:18,860 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:10:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:11:53,249 - werkzeug - INFO -  * Detected change in '/Users/krutikanatu/Documents/course6-genai/shop-assist-ai-main/chatbot/app.py', reloading
+2025-03-21 16:11:53,346 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 16:11:53,974 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 16:11:53,985 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 16:11:56,813 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.3:5001
+2025-03-21 16:11:56,813 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 16:11:56,814 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 16:11:57,551 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 16:11:57,557 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 16:12:00,365 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:12:00] "GET / HTTP/1.1" 200 -
+2025-03-21 16:12:00,395 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:12:00] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:12:04,466 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:12:04,466 - __main__ - INFO - Received user input: hi
+2025-03-21 16:12:05,288 - __main__ - INFO - Generated response: Of course, I'm here to help you with anything related to laptops! What specific features or specifications are you looking for in a laptop?
+2025-03-21 16:12:05,290 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:12:05] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:12:05,307 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:12:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:12:12,007 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:12:12,008 - __main__ - INFO - Received user input: budget 10000
+2025-03-21 16:12:12,743 - __main__ - INFO - Generated response: Understood! With a budget of 10,000, may I ask in which currency you would like to make the purchase?
+
+2025-03-21 16:12:12,745 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:12:12] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:12:12,766 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:12:12] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:12:20,191 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:12:20,191 - __main__ - INFO - Received user input: dollar
+2025-03-21 16:12:26,045 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:12:26,046 - __main__ - INFO - Received user input: dollar
+2025-03-21 16:12:26,065 - __main__ - INFO - Generated response: Got it! With a budget of $10,000, you have a generous budget to find a high-quality laptop. What specific requirements do you have in terms of performance, design, brand, or any other features you prioritize in a laptop?
+2025-03-21 16:12:26,066 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:12:26] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:12:28,282 - __main__ - INFO - Generated response: Got it, thank you for specifying the currency. With a budget of $10,000, we can definitely find a high-quality laptop for you. What are the main tasks you will be using the laptop for, such as work, gaming, content creation, or general use?
+2025-03-21 16:12:28,284 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:12:28] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:12:28,303 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:12:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:12:41,079 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:12:41,079 - __main__ - INFO - Received user input: work and gaming
+2025-03-21 16:12:42,401 - __main__ - INFO - Generated response: Great to know that you'll be using the laptop for work and gaming purposes. In that case, I would recommend looking for a laptop with a powerful processor, ample RAM, a dedicated graphics card, and a high-quality display. Additionally, consider factors such as display size, portability, and battery life. Is there a specific screen size or any other requirement you have in mind for the laptop?
+2025-03-21 16:12:42,403 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:12:42] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:12:42,419 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:12:42] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:13:23,038 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:13:23,039 - __main__ - INFO - Received user input: What's the cheapest laptop in your inventory?
+2025-03-21 16:13:23,041 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:13:23] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:13:23,057 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:13:23] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:13:34,566 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:13:34,566 - __main__ - INFO - Received user input: Do you have any Dell laptops?
+2025-03-21 16:13:34,570 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:13:34] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:13:34,592 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:13:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:13:45,234 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:13:45,234 - __main__ - INFO - Received user input: I need a gaming laptop with high GPU and a budget of 90000
+2025-03-21 16:13:47,072 - __main__ - INFO - Generated response: Understood! With a budget of ₹90,000 and a need for a gaming laptop with a high GPU, I recommend considering the Dell G15 with Intel Core i7-11800H, 16GB RAM, 512GB SSD, and a dedicated NVIDIA GeForce RTX 3060 GPU. This laptop offers powerful gaming performance within your budget range. Would you like more details or assistance in finding other options?
+2025-03-21 16:13:47,073 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:13:47] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:13:47,087 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:13:47] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:14:55,148 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:14:55,149 - __main__ - INFO - Received user input: I need a laptop for gaming with a budget of 80000
+2025-03-21 16:14:56,514 - __main__ - INFO - Generated response: With a budget of ₹80,000 and a focus on gaming, I recommend looking into the ASUS TUF Gaming A15. It features an AMD Ryzen 7 4800H processor, 16GB RAM, 512GB SSD, and an NVIDIA GeForce GTX 1660 Ti graphics card. This laptop offers solid gaming performance within your budget. Would you like more information about this model or other recommendations?
+2025-03-21 16:14:56,517 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:14:56] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:14:56,536 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:14:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:15:05,808 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:15:05,808 - __main__ - INFO - Received user input: Show me laptops with 16GB RAM
+2025-03-21 16:15:08,725 - __main__ - INFO - Generated response: Here are some laptops with 16GB of RAM:
+
+1. Acer Predator Helios 300: Intel Core i7, 16GB RAM, 512GB SSD, NVIDIA GeForce RTX 3060
+2. Lenovo Legion 5: AMD Ryzen 7, 16GB RAM, 512GB SSD, NVIDIA GeForce GTX 1660 Ti
+3. HP Omen 15: Intel Core i7, 16GB RAM, 1TB SSD, NVIDIA GeForce RTX 3070
+
+These laptops offer great performance with 16GB of RAM for gaming and other tasks. Let me know if you would like more details on any specific model.
+2025-03-21 16:15:08,727 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:15:08] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:15:08,747 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:15:08] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:15:18,910 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:15:18,911 - __main__ - INFO - Received user input:    I need a laptop for college    [wait for response]    My budget is 50000    [wait for response]    I need good battery life and portability
+2025-03-21 16:15:22,458 - __main__ - INFO - Generated response: For your college needs with a budget of ₹50,000, good battery life, and portability in mind, I recommend considering the following laptops:
+
+1. Dell Inspiron 14 5000 Series: Intel Core i5, 8GB RAM, 256GB SSD, 14-inch FHD display, good battery life, and portable design.
+2. HP Pavilion x360: Intel Core i5, 8GB RAM, 256GB SSD, 13.3-inch FHD touchscreen, 2-in-1 convertible design for versatility, and decent battery life.
+3. Acer Swift 3: AMD Ryzen 5, 8GB RAM, 512GB SSD, 14-inch FHD display, lightweight and portable design, and good battery life.
+
+These laptops are well-suited for college tasks, offer good battery life, and are portable for easy mobility on campus. Let me know if you would like more information on any of these models or if you prefer other specifications.
+2025-03-21 16:15:22,461 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:15:22] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:15:22,482 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:15:22] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:15:38,660 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:15:38,661 - __main__ - INFO - Received user input:    Compare the Dell XPS 13 and Dell G15
+2025-03-21 16:15:42,958 - __main__ - INFO - Generated response: Sure! Here is a comparison between the Dell XPS 13 and Dell G15:
+
+Dell XPS 13:
+- Processor: Intel Core i7-1185G7
+- RAM: 16GB
+- Storage: 1TB SSD
+- Display: 13.4-inch 4K
+- Graphics: Integrated Intel Iris Xe
+- Price: ₹90,000
+- Design: Thin and lightweight, premium build quality
+
+Dell G15:
+- Processor: Intel Core i7-11800H
+- RAM: 16GB
+- Storage: 512GB SSD
+- Display: 15.6-inch FHD
+- Graphics: NVIDIA GeForce RTX 3060
+- Price: ₹88,000
+- Design: Gaming-oriented, with dedicated GPU and cooling features
+
+The Dell XPS 13 is a premium ultrabook known for its sleek design, high-resolution display, and premium build quality. On the other hand, the Dell G15 is a gaming laptop with a powerful CPU and dedicated GPU, making it suitable for gaming and demanding tasks. The choice between the two would depend on whether you prioritize portability, design, and display quality (XPS 13) or gaming performance and dedicated graphics (G15). Let me know if you need more details or have specific preferences.
+2025-03-21 16:15:42,960 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:15:42] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:15:42,981 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:15:42] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:16:06,018 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:16:06,020 - __main__ - INFO - Received user input:    I need a laptop for college
+2025-03-21 16:16:09,118 - __main__ - INFO - Generated response: Understood! When choosing a laptop for college, it's important to consider factors such as portability, battery life, performance, and display quality. Do you have any specific preferences in mind, such as display size, processor type, RAM capacity, storage space, or budget? This information will help me suggest the most suitable options for your college needs.
+2025-03-21 16:16:09,119 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:16:09] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:16:09,135 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:16:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:16:15,373 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:16:15,374 - __main__ - INFO - Received user input: My budget is 50000
+2025-03-21 16:16:17,560 - __main__ - INFO - Generated response: With a budget of ₹50,000 for a college laptop, you can consider the following options that offer a balance of performance, portability, and value:
+
+1. HP Pavilion 14: Intel Core i5, 8GB RAM, 512GB SSD, 14-inch FHD display, good for multitasking and productivity tasks.
+2. Lenovo Ideapad Slim 3i: Intel Core i5, 8GB RAM, 256GB SSD, 15.6-inch FHD display, affordable and reliable for everyday use.
+3. Acer Aspire 5: AMD Ryzen 5, 8GB RAM, 512GB SSD, 15.6-inch FHD display, good performance for students and casual users.
+
+These laptops are suitable for college tasks such as note-taking, research, assignments, and some multimedia use within your budget. If you have specific preferences or requirements, feel free to let me know so I can further tailor the recommendations for you.
+2025-03-21 16:16:17,561 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:16:17] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:16:17,580 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:16:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:16:25,422 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:16:25,423 - __main__ - INFO - Received user input: I need good battery life and portability
+2025-03-21 16:16:27,591 - __main__ - INFO - Generated response: For good battery life and portability within your budget of ₹50,000, I recommend considering the following laptops:
+
+1. ASUS VivoBook Ultra K14: Intel Core i5, 8GB RAM, 512GB SSD, 14-inch FHD display, lightweight and slim design for portability, and decent battery life.
+2. Lenovo IdeaPad S340: Intel Core i5, 8GB RAM, 256GB SSD, 14-inch FHD display, compact and lightweight build with good battery efficiency.
+3. HP Pavilion x360: Intel Core i3, 8GB RAM, 256GB SSD, 14-inch FHD touchscreen display, 2-in-1 convertible design for flexibility and decent battery performance.
+
+These laptops offer a balance of portability, battery life, and performance for college tasks while staying within your budget. If you have any specific preferences or require additional information, feel free to let me know so I can further assist you in finding the ideal laptop for your college needs.
+2025-03-21 16:16:27,593 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:16:27] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:16:27,610 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:16:27] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:17:28,507 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:17:28,508 - __main__ - INFO - Received user input: What's the most expensive laptop in your inventory?
+2025-03-21 16:17:29,383 - __main__ - INFO - Generated response: The most expensive laptop in our inventory is the Apple MacBook Pro 16-inch priced at ₹2,50,000.
+2025-03-21 16:17:29,386 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:17:29] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:17:29,403 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:17:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:17:39,538 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:17:39,538 - __main__ - INFO - Received user input: How many laptops do you have in total?
+2025-03-21 16:17:40,655 - __main__ - INFO - Generated response: I have a total of 25 laptops in my dataset. If you have any specific preferences or requirements for a laptop, feel free to let me know, and I can assist you in finding the right laptop based on your needs.
+2025-03-21 16:17:40,656 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:17:40] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:17:40,671 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:17:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:17:48,520 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:17:48,521 - __main__ - INFO - Received user input: Do you have any HP laptops?
+2025-03-21 16:17:50,936 - __main__ - INFO - Generated response: Yes, we have HP laptops in our dataset. Here are some of the HP laptops available:
+
+- HP Pavilion x360: Intel Core i5, 8GB RAM, 256GB SSD, 13.3-inch FHD touchscreen
+- HP Omen 15: Intel Core i7, 16GB RAM, 1TB SSD, NVIDIA GeForce RTX 3070
+- HP Spectre x360: Intel Core i7, 16GB RAM, 512GB SSD, 13.3-inch 4K touchscreen
+
+Please let me know if you would like more information about any specific HP laptop or if you have any preferences in terms of specifications.
+2025-03-21 16:17:50,937 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:17:50] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:17:50,950 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:17:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:18:04,642 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:18:04,643 - __main__ - INFO - Received user input: I need a laptop for video editing, what do you recommend?
+2025-03-21 16:18:09,396 - __main__ - INFO - Generated response: For video editing, I recommend a laptop with a powerful processor, ample RAM, dedicated graphics card, and a high-resolution display. Here are a few options that would be suitable for video editing tasks:
+
+1. Apple MacBook Pro 16-inch: Features a powerful Intel Core i9 processor, 16GB RAM, AMD Radeon Pro 5500M graphics, and a stunning Retina display. This laptop is known for its performance in video editing tasks.
+
+2. Dell XPS 15: Offers an Intel Core i7 processor, 16GB RAM, NVIDIA GeForce GTX 1650 graphics, and a vibrant 15.6-inch 4K touchscreen display. It is a popular choice for content creators.
+
+3. ASUS ROG Zephyrus G14: Equipped with an AMD Ryzen 9 processor, 16GB RAM, NVIDIA GeForce RTX 2060 graphics, and a 14-inch QHD display. This laptop combines portability with powerful performance for video editing.
+
+These laptops provide the performance and features needed for smooth video editing processes. If you have specific requirements or preferences, please let me know so I can further tailor my recommendations for you.
+2025-03-21 16:18:09,399 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:18:09] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:18:09,416 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:18:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:18:45,811 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:18:45,813 - __main__ - INFO - Received user input: What does SSD mean?
+2025-03-21 16:18:48,359 - __main__ - INFO - Generated response: SSD stands for Solid State Drive. It is a type of storage device used in laptops and other electronic devices to store data, files, and operating systems. SSDs use NAND flash memory to store data, offering faster read and write speeds compared to traditional hard disk drives (HDDs). SSDs are known for their faster boot times, quicker data access, and overall improved performance in laptops. They are a common choice for users looking for speed and efficiency in storage solutions.
+2025-03-21 16:18:48,362 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:18:48] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:18:48,380 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:18:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:19:21,749 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:19:21] "[32mPOST /end_conversation HTTP/1.1[0m" 302 -
+2025-03-21 16:19:21,754 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:19:21] "GET / HTTP/1.1" 200 -
+2025-03-21 16:19:21,775 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:19:21] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:19:27,833 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:19:27,833 - __main__ - INFO - Received user input: hi
+2025-03-21 16:19:28,614 - __main__ - INFO - Generated response: Of course! I can help you with any questions you have related to laptops. What are you looking for in a laptop today?
+2025-03-21 16:19:28,615 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:19:28] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:19:28,632 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:19:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:20:36,173 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:20:36,174 - __main__ - INFO - Received user input: What's a good laptop for programming and software development?
+2025-03-21 16:20:40,244 - __main__ - INFO - Generated response: For programming and software development, you'll want a laptop with a powerful processor, ample RAM, and a comfortable keyboard. Some popular options for programming laptops include the MacBook Pro, Dell XPS 13, and Lenovo ThinkPad series. These laptops offer excellent performance, reliable build quality, and high-resolution displays that are great for coding and development work. Be sure to consider the specific requirements of the programming languages and tools you'll be using to ensure the laptop you choose meets your needs.
+2025-03-21 16:20:40,247 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:20:40] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:20:40,275 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:20:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:21:27,204 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:21:27,206 - __main__ - INFO - Received user input: What's the price range of laptops in your inventory?
+2025-03-21 16:21:28,284 - __main__ - INFO - Generated response: I don't have access to specific inventory or prices as I am a virtual assistant. However, I can provide general guidance on laptop prices based on different categories and specifications. Please let me know if you have any specific budget in mind, and I can recommend laptops within that range.
+2025-03-21 16:21:28,285 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:21:28] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:21:28,300 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:21:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:21:40,476 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:21:40,478 - __main__ - INFO - Received user input: Show me the best laptop I can get for ₹50000
+2025-03-21 16:21:42,516 - __main__ - INFO - Generated response: For a budget of ₹50,000, you can consider the following options:
+
+1. Acer Aspire 5: The Acer Aspire 5 is a good budget-friendly laptop with a decent performance for everyday tasks and light productivity work.
+
+2. Lenovo Ideapad S145: The Lenovo Ideapad S145 offers a good balance of performance, build quality, and affordability, making it a solid choice for budget-conscious buyers.
+
+3. HP 15s: The HP 15s is another option to consider within this price range, offering a combination of performance and reliability for basic computing needs.
+
+These laptops should be able to handle tasks like web browsing, email, word processing, and light multitasking effectively within your budget constraints.
+2025-03-21 16:21:42,518 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:21:42] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:21:42,543 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:21:42] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:22:04,203 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:22:04,204 - __main__ - INFO - Received user input: What's the best value-for-money laptop you have
+2025-03-21 16:22:10,829 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:22:10,830 - __main__ - INFO - Received user input: What's the best value-for-money laptop you have
+2025-03-21 16:22:10,854 - __main__ - INFO - Generated response: For the best value-for-money laptop, I would recommend considering the following options:
+
+1. **Dell Inspiron 15 5000 Series**: This laptop offers a good balance of performance, build quality, and features at a reasonable price point. It's suitable for everyday use, light productivity tasks, and multimedia consumption.
+
+2. **Asus VivoBook S15**: The Asus VivoBook S15 provides a good mix of performance, design, and portability at a competitive price. It's great for students and professionals looking for a reliable laptop within budget.
+
+3. **Lenovo ThinkPad E Series**: The Lenovo ThinkPad E Series laptops are known for their durability, performance, and value. They are popular among business users and offer a good overall package for the price.
+
+These laptops deliver solid performance, reliability, and features for the price, making them excellent value-for-money options.
+2025-03-21 16:22:10,856 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:22:10] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:22:12,731 - __main__ - INFO - Generated response: One of the best value-for-money laptops currently available in the market is the ASUS VivoBook series. ASUS VivoBooks offer a good balance of performance, features, and build quality at an affordable price point. They typically come with modern processors, sufficient RAM, and decent display options, making them suitable for a wide range of users, from students to professionals.
+
+Another option to consider for value-for-money is the Acer Aspire series, which offers reliable performance and features at a competitive price.
+
+Ultimately, the best value-for-money laptop for you will depend on your specific needs and budget. Consider factors such as processor performance, RAM capacity, storage options, display quality, and battery life when comparing different models to find the perfect balance of features and affordability for your requirements.
+2025-03-21 16:22:12,733 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:22:12] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:22:12,750 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:22:12] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:22:26,699 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:22:26,699 - __main__ - INFO - Received user input: Show me laptops with 16GB RAM
+2025-03-21 16:22:29,405 - __main__ - INFO - Generated response: Laptops with 16GB of RAM are ideal for tasks that require intensive multitasking, such as video editing, graphic design, and running virtual machines. Here are some laptops with 16GB of RAM that you may consider:
+
+1. **Dell XPS 15**: The Dell XPS 15 is a premium laptop that offers great performance, a stunning display, and excellent build quality. It's a top choice for professionals and content creators.
+
+2. **Apple MacBook Pro**: The MacBook Pro is a popular choice for users in the creative industry. It offers powerful performance, a high-resolution Retina display, and a sleek design.
+
+3. **HP Spectre x360**: The HP Spectre x360 is a versatile 2-in-1 laptop with a premium build quality, vivid display, and strong performance. It's a great option for users who value both style and functionality.
+
+4. **Lenovo ThinkPad X1 Carbon**: The ThinkPad X1 Carbon is a lightweight and durable business laptop with a focus on performance and productivity. It's well-suited for professionals who need a reliable workhorse.
+
+These laptops with 16GB of RAM will provide you with a smooth multitasking experience and ample memory for demanding tasks.
+2025-03-21 16:22:29,408 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:22:29] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:22:29,430 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:22:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:23:09,927 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:23:09,929 - __main__ - INFO - Received user input: How many laptops do you have in total?
+2025-03-21 16:23:11,202 - __main__ - INFO - Generated response: I do not have access to specific inventory or real-time data as I am a virtual assistant designed to assist with laptop-related queries. I can provide information, recommendations, and comparisons on laptops based on specifications, budget, and requirements. Please feel free to ask any laptop-related questions, and I'll do my best to assist you!
+2025-03-21 16:23:11,205 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:23:11] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:23:11,226 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:23:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:24:24,742 - werkzeug - INFO -  * Detected change in '/Users/krutikanatu/Documents/course6-genai/shop-assist-ai-main/chatbot/app.py', reloading
+2025-03-21 16:24:24,832 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 16:24:25,418 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 16:24:25,427 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 16:24:28,631 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.3:5001
+2025-03-21 16:24:28,631 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 16:24:28,632 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 16:24:28,994 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 16:24:29,000 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 16:24:33,267 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:24:33] "GET / HTTP/1.1" 200 -
+2025-03-21 16:24:33,302 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:24:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:24:46,040 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:24:46,041 - __main__ - INFO - Received user input: hi, i want a laptop for gaming
+2025-03-21 16:24:50,881 - __main__ - INFO - Generated response: Of course! I can help you find a gaming laptop. What specific requirements do you have in mind for the gaming laptop you're looking for?
+2025-03-21 16:24:50,882 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:24:50] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:24:50,915 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:24:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:25:05,522 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:25:05,523 - __main__ - INFO - Received user input: What laptops do you offer under ₹70000?
+2025-03-21 16:25:05,526 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:25:05] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:25:05,542 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:25:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:25:30,003 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:25:30,004 - __main__ - INFO - Received user input: I travel frequently so it needs to be lightweight
+2025-03-21 16:25:31,977 - __main__ - INFO - Generated response: I can help you find a lightweight gaming laptop within your budget. Here are a few options you might consider:
+
+1. ASUS ROG Zephyrus G14: AMD Ryzen 9, NVIDIA GeForce GTX 1660 Ti, 14-inch display, under 4 lbs.
+2. MSI GS66 Stealth: Intel Core i7, NVIDIA GeForce RTX 2060, 15.6-inch display, under 5 lbs.
+3. Razer Blade Stealth: Intel Core i7, NVIDIA GeForce GTX 1650 Ti, 13.3-inch display, under 3 lbs.
+
+These laptops are known for their portability and performance, making them great options for gaming on the go. Let me know if you need more information about any of these models or if you have any other preferences.
+2025-03-21 16:25:31,980 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:25:31] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:25:31,998 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:25:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:25:58,063 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:25:58,064 - __main__ - INFO - Received user input: What's better for gaming: Asus ROG or Dell G15
+2025-03-21 16:26:01,061 - __main__ - INFO - Generated response: Both the Asus ROG and Dell G15 gaming laptops are popular choices among gamers, each with their own strengths. Here are some factors to consider when comparing the two:
+
+1. Performance: Both brands offer models with high-performance processors and graphics cards suitable for gaming. Asus ROG laptops are known for their powerful components and efficient cooling systems, while Dell G15 laptops also offer reliable performance for gaming.
+
+2. Build Quality: Asus ROG laptops are typically well-built with a focus on durability and design. Dell G15 laptops also have a solid build quality and are known for their sturdy construction.
+
+3. Price: Asus ROG laptops are often positioned in the premium price range, while Dell G15 laptops may offer more budget-friendly options without compromising on performance.
+
+4. Design and Features: Asus ROG laptops often feature a more gaming-centric design with customizable RGB lighting and additional gaming-centric features. Dell G15 laptops may offer a more minimalist design with a focus on functionality.
+
+Ultimately, the better choice between Asus ROG and Dell G15 would depend on your specific gaming needs, budget, and preferences. I recommend comparing the specific models you are interested in based on factors such as performance, price, design, and additional features to determine which one best suits your gaming requirements.
+2025-03-21 16:26:01,064 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:26:01] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:26:01,085 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:26:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:26:13,749 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:26:13,751 - __main__ - INFO - Received user input: Which laptops have 4K displays
+2025-03-21 16:26:13,752 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:26:13] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:26:13,767 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:26:13] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:26:27,529 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:26:27,531 - __main__ - INFO - Received user input: Show me laptops with 16GB RAM for gaming
+2025-03-21 16:26:31,244 - __main__ - INFO - Generated response: We have 8 laptops with 16GB RAM suitable for gaming in our dataset. Here are 5 examples:
+
+- HP Omen 15: Intel Core i7-11800H, 16GB, 512GB SSD, 15.6-inch FHD, NVIDIA GeForce RTX 3060, ₹90000
+- Dell G5 15 SE: AMD Ryzen 7 5800H, 16GB, 512GB SSD, 15.6-inch FHD, AMD Radeon RX 5600M, ₹80000
+- Lenovo Legion 5: AMD Ryzen 7 5800H, 16GB, 1TB SSD, 15.6-inch FHD, NVIDIA GeForce RTX 3060, ₹95000
+- ASUS TUF Dash F15: Intel Core i7-11370H, 16GB, 512GB SSD, 15.6-inch FHD, NVIDIA GeForce RTX 3070, ₹110000
+- MSI GL65 Leopard: Intel Core i7-10750H, 16GB, 512GB SSD, 15.6-inch FHD, NVIDIA GeForce RTX 2070, ₹100000
+
+These laptops with 16GB RAM are well-equipped for gaming and offer a balance of performance and affordability. Let me know if you'd like more information about any of these models or if you have any specific preferences.
+2025-03-21 16:26:31,246 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:26:31] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:26:31,263 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:26:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:27:37,016 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:27:37,016 - __main__ - INFO - Received user input: What's the most expensive laptop in your inventory?
+2025-03-21 16:27:37,018 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:27:37] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:27:37,041 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:27:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:27:48,304 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:27:48,305 - __main__ - INFO - Received user input: how is macbook ?
+2025-03-21 16:27:50,064 - __main__ - INFO - Generated response: MacBooks are known for their premium build quality, sleek design, and smooth performance. They are popular among users who value a user-friendly interface, ecosystem integration with other Apple devices, and reliable battery life. 
+
+MacBooks typically run on macOS, which is Apple's operating system known for its stability and security features. They are well-suited for tasks like photo and video editing, graphic design, and general productivity work. 
+
+However, it's important to note that MacBooks tend to be more expensive compared to Windows laptops with similar specifications. Additionally, customization options may be limited compared to some Windows laptops.
+
+If you have specific requirements or tasks in mind for your laptop, feel free to let me know so I can provide more tailored recommendations.
+2025-03-21 16:27:50,066 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:27:50] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:27:50,086 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:27:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:28:02,593 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:28:02,595 - __main__ - INFO - Received user input: Do you have any HP laptops?
+2025-03-21 16:28:02,597 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:28:02] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:28:02,615 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:28:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:28:20,679 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:28:20,681 - __main__ - INFO - Received user input: Do you have any laptops with 1TB storage
+2025-03-21 16:28:20,682 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:28:20] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:28:20,699 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:28:20] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:29:37,335 - werkzeug - INFO -  * Detected change in '/Users/krutikanatu/Documents/course6-genai/shop-assist-ai-main/chatbot/app.py', reloading
+2025-03-21 16:29:37,424 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 16:29:37,999 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 16:29:38,009 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 16:31:37,385 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.3:5001
+2025-03-21 16:31:37,386 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 16:31:37,386 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 16:31:37,765 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 16:31:37,773 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 16:31:42,302 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:31:42] "GET / HTTP/1.1" 200 -
+2025-03-21 16:31:42,331 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:31:42] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:31:52,956 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:31:52,956 - __main__ - INFO - Received user input: I need a laptop with a good graphics card for gaming
+2025-03-21 16:31:52,963 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:31:52] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:31:52,981 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:31:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:32:02,504 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:32:02,506 - __main__ - INFO - Received user input: Which laptops have high-performance GPUs
+2025-03-21 16:32:02,510 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:32:02] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:32:02,529 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:32:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:32:18,518 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:32:18,519 - __main__ - INFO - Received user input: What's the most portable laptop you have?
+2025-03-21 16:32:18,521 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:32:18] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:32:18,535 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:32:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:32:28,642 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:32:28,642 - __main__ - INFO - Received user input: I need a laptop with long battery life for college
+2025-03-21 16:32:28,645 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:32:28] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:32:28,662 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:32:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:32:36,929 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:32:36,930 - __main__ - INFO - Received user input: Compare Dell XPS 13 and HP Spectre x360
+2025-03-21 16:32:36,932 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:32:36] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:32:36,946 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:32:36] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:32:49,809 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:32:49] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:32:49,835 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:32:49] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:33:02,494 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:33:02] "[32mPOST /end_conversation HTTP/1.1[0m" 302 -
+2025-03-21 16:33:02,506 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:33:02] "GET / HTTP/1.1" 200 -
+2025-03-21 16:33:02,528 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:33:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:33:04,948 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:33:04,948 - __main__ - INFO - Received user input: hi
+2025-03-21 16:33:05,660 - __main__ - INFO - Generated response: Of course! How can I assist you in finding the perfect laptop today?
+2025-03-21 16:33:05,661 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:33:05] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:33:05,681 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:33:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:33:12,586 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:33:12,587 - __main__ - INFO - Received user input: i want a laptop for gaming
+2025-03-21 16:33:12,588 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:33:12] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:33:12,598 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:33:12] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:33:30,151 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:33:30,152 - __main__ - INFO - Received user input: tell me more about Razer Blade
+2025-03-21 16:33:33,127 - __main__ - INFO - Generated response: The Razer Blade is a premium gaming laptop known for its sleek design, powerful performance, and high-quality display. The Razer Blade 15 model comes with various configurations, but the one in our dataset features:
+
+- Processor: Intel Core i7-11800H
+- RAM: 16GB
+- Storage: 512GB SSD
+- Display: 15.6-inch QHD (2560 x 1440 resolution)
+- Price: ₹140,000
+
+The Razer Blade 15 is known for its advanced gaming capabilities, RGB customizable keyboard, and premium build quality. It offers a smooth gaming experience with its high-end components and stunning display. If you have any specific questions or need more details about the Razer Blade 15, feel free to ask!
+2025-03-21 16:33:33,130 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:33:33] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:33:33,150 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:33:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:33:54,473 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:33:54,474 - __main__ - INFO - Received user input: I need a laptop with high GPU performance for gaming, good display quality, medium portability, high multitasking capability, fast processing speed, and my budget is around 80,000 rupees
+2025-03-21 16:33:54,475 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:33:54] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:33:54,489 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:33:54] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:35:08,786 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.3:5001
+2025-03-21 16:35:08,786 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 16:35:08,787 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 16:35:09,195 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 16:35:09,214 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 16:35:12,105 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:35:12] "GET / HTTP/1.1" 200 -
+2025-03-21 16:35:12,157 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:35:12] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:35:14,697 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:35:14,698 - __main__ - INFO - Received user input: hi
+2025-03-21 16:35:16,143 - __main__ - INFO - Generated response: Of course! I'm here to assist you with any laptop-related questions or help you find the perfect laptop. What specific requirements or preferences do you have for your new laptop?
+2025-03-21 16:35:16,145 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:35:16] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:35:16,168 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:35:16] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:35:36,534 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:35:36,535 - __main__ - INFO - Received user input: i want a light weight laptop for gaming with 16 gb ram
+2025-03-21 16:35:36,540 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:35:36] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:35:36,571 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:35:36] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:38:29,139 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.3:5001
+2025-03-21 16:38:29,139 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 16:38:29,140 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 16:38:29,505 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 16:38:29,514 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 16:38:34,721 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:38:34] "GET / HTTP/1.1" 200 -
+2025-03-21 16:38:34,764 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:38:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:38:37,507 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:38:37,508 - __main__ - INFO - Received user input: hi
+2025-03-21 16:38:37,508 - __main__ - ERROR - Unexpected error processing request: cannot access local variable 're' where it is not associated with a value
+2025-03-21 16:38:37,509 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:38:37] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:38:37,524 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:38:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:39:42,231 - werkzeug - INFO -  * Detected change in '/Users/krutikanatu/Documents/course6-genai/shop-assist-ai-main/chatbot/app.py', reloading
+2025-03-21 16:39:42,319 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 16:39:42,868 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 16:39:42,875 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 16:39:45,753 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.3:5001
+2025-03-21 16:39:45,754 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 16:39:45,754 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 16:39:46,088 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 16:39:46,094 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 16:39:50,175 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:39:50] "GET / HTTP/1.1" 200 -
+2025-03-21 16:39:50,216 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:39:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:39:53,077 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:39:53,078 - __main__ - INFO - Received user input: hi
+2025-03-21 16:39:54,032 - __main__ - INFO - Generated response: Of course! I'm here to help you with any questions you have about laptops. What are you looking for in a laptop today?
+2025-03-21 16:39:54,032 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:39:54] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:39:54,057 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:39:54] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:39:59,399 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:39:59,400 - __main__ - INFO - Received user input: How does the Dell XPS compare to the Lenovo ThinkPad
+2025-03-21 16:40:02,411 - __main__ - INFO - Generated response: Both the Dell XPS and the Lenovo ThinkPad are popular laptops known for their performance and build quality. Here are some key points to consider when comparing the two:
+
+1. Design and Build Quality: The Dell XPS series is well-regarded for its sleek design and premium build quality, featuring a thin and lightweight chassis with minimal bezels around the display. The Lenovo ThinkPad, on the other hand, is known for its durable construction, spill-resistant keyboards, and iconic ThinkPad design.
+
+2. Display: Dell XPS laptops often come with vibrant and high-resolution displays, including touch screen options for select models. Lenovo ThinkPad laptops also offer good display quality with options for touch screens and matte screens for reduced glare.
+
+3. Performance: Both Dell XPS and Lenovo ThinkPad laptops are available with various processor options, including Intel Core processors, and ample memory and storage configurations to suit different needs. The XPS series may be more focused on higher performance for tasks like multimedia editing, whereas ThinkPads are known for their reliability and business-oriented features.
+
+4. Price: The pricing for Dell XPS and Lenovo ThinkPad laptops can vary based on the specific configuration and features you choose. Generally, Dell XPS laptops tend to be priced on the higher end due to their premium build quality and performance, while ThinkPads offer a range of models at different price points to cater to different budgets.
+
+Ultimately, the choice between the Dell XPS and Lenovo ThinkPad will depend on your specific needs and preferences, such as design, performance, durability, and budget. If you have any specific requirements or preferences, feel free to let me know so I can provide more tailored recommendations.
+2025-03-21 16:40:02,414 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:40:02] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:40:02,437 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:40:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:40:07,655 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:40:07,656 - __main__ - INFO - Received user input: I need a laptop with high GPU performance for gaming, good display quality, medium portability, high multitasking capability, fast processing speed, and my budget is around 80,000 rupees
+2025-03-21 16:40:07,658 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:40:07] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:40:07,668 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:40:07] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:41:14,756 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:41:14,756 - __main__ - INFO - Received user input: i want laptop for gaming
+2025-03-21 16:41:14,761 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:41:14] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:41:14,778 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:41:14] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:41:21,008 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:41:21,008 - __main__ - INFO - Received user input: which one is good ?
+2025-03-21 16:41:27,396 - __main__ - INFO - Generated response: Based on your requirements for gaming, good display quality, medium portability, high multitasking capability, fast processing speed, and budget of around 80,000 rupees, I recommend considering the HP EliteBook 840 G8 or the Lenovo ThinkPad X1 Carbon. 
+
+The HP EliteBook 840 G8 offers a good balance of performance and portability with its Intel Core i7 processor, 16GB of RAM, 512GB SSD, and a 14-inch Full HD display. It should be able to handle gaming well and provide good multitasking capabilities within your budget.
+
+The Lenovo ThinkPad X1 Carbon is also a solid choice with its Intel Core i5 processor, 8GB of RAM, 256GB SSD, and 14-inch Full HD display. It is known for its durability, portability, and overall performance, making it a reliable option for gaming and multitasking.
+
+Both laptops should meet your criteria for gaming performance, display quality, portability, multitasking capability, and processing speed within your specified budget. Be sure to compare the specific features and specifications of each model to determine which one aligns best with your preferences and needs.
+2025-03-21 16:41:27,398 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:41:27] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:41:27,415 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:41:27] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:42:25,125 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:42:25,127 - __main__ - INFO - Received user input: Do you have any Dell laptops?
+2025-03-21 16:42:25,129 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:42:25] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:42:25,154 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:42:25] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:42:34,580 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:42:34,581 - __main__ - INFO - Received user input: What's the cheapest laptop you have?
+2025-03-21 16:42:34,583 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:42:34] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:42:34,597 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:42:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:42:42,870 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:42:42,871 - __main__ - INFO - Received user input: Show me laptops with 16GB RAM"
+2025-03-21 16:42:42,873 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:42:42] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:42:42,890 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:42:42] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:42:53,034 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:42:53,035 - __main__ - INFO - Received user input: Show me laptops under ₹70000
+2025-03-21 16:42:55,280 - __main__ - INFO - Generated response: We have 5 laptops under ₹70000 in our dataset. Here they are:
+
+- HP EliteBook 840 G8: Intel Core i7-1165G7, 16GB, 512GB SSD, 14-inch FHD, ₹75000
+- Lenovo ThinkPad X1 Carbon: Intel Core i5-1135G7, 8GB, 256GB SSD, 14-inch FHD, ₹65000
+- Dell Inspiron 15: Intel Core i5-1135G7, 8GB, 256GB SSD, 15.6-inch FHD, ₹48000
+- ASUS VivoBook S15: Intel Core i5-1135G7, 8GB, 512GB SSD, 15.6-inch FHD, ₹60000
+- Acer Aspire 5: AMD Ryzen 5 4500U, 8GB, 512GB SSD, 15.6-inch Full HD, ₹55000
+
+Would you like more specific information about any of these models?
+2025-03-21 16:42:55,289 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:42:55] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:42:55,313 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:42:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:43:33,832 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:43:33,833 - __main__ - INFO - Received user input: I need a business laptop with good battery life
+2025-03-21 16:43:33,836 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:43:33] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:43:33,847 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:43:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:43:37,740 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:43:37,741 - __main__ - INFO - Received user input: Which is better for gaming: i7 or i9 processors?
+2025-03-21 16:43:37,742 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:43:37] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:43:37,753 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:43:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:43:51,192 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:43:51,194 - __main__ - INFO - Received user input: Looking for a lightweight laptop with good battery life for college, budget around 60000
+2025-03-21 16:43:51,196 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:43:51] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:43:51,213 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:43:51] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:43:59,465 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:43:59,466 - __main__ - INFO - Received user input: I need a laptop for college
+2025-03-21 16:44:01,095 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:44:01] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:44:01,115 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:44:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:44:06,871 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:44:06,871 - __main__ - INFO - Received user input: budget 10000
+2025-03-21 16:44:10,800 - __main__ - INFO - Generated response: I apologize, but the budget of ₹10,000 is very low for a laptop, and it may be challenging to find a new laptop with decent specifications within that price range. You may want to consider looking for refurbished or second-hand laptops if you have a strict budget. If you have a higher budget in mind or specific requirements, please let me know so I can provide more suitable recommendations.
+2025-03-21 16:44:10,802 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:44:10] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:44:10,820 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:44:10] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:44:23,232 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:44:23] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:44:23,253 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:44:23] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:45:25,596 - werkzeug - INFO -  * Detected change in '/Users/krutikanatu/Documents/course6-genai/shop-assist-ai-main/chatbot/app.py', reloading
+2025-03-21 16:45:25,693 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 16:45:26,299 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 16:45:26,305 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 16:45:29,227 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.3:5001
+2025-03-21 16:45:29,227 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 16:45:29,228 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 16:45:29,588 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 16:45:29,603 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 16:45:32,793 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:45:32] "GET / HTTP/1.1" 200 -
+2025-03-21 16:45:32,860 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:45:32] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:45:35,416 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:45:35,416 - __main__ - INFO - Received user input: hi
+2025-03-21 16:45:37,588 - __main__ - INFO - Generated response: Of course! I'm here to help you find the perfect laptop. What specific requirements or preferences do you have in mind for your new laptop?
+2025-03-21 16:45:37,592 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:45:37] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:45:37,620 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:45:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:45:53,022 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:45:53,023 - __main__ - INFO - Received user input: i need a laptop with 16 gb ram for gaming
+2025-03-21 16:45:53,033 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:45:53] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:45:53,050 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:45:53] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:46:11,324 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:46:11,324 - __main__ - INFO - Received user input: i want laptop for gaming
+2025-03-21 16:46:11,325 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:46:11] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:46:11,337 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:46:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:46:31,243 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 16:46:31,243 - __main__ - INFO - Received user input: budget 100000
+2025-03-21 16:46:33,702 - __main__ - INFO - Generated response: We have a few laptops within your budget of ₹100,000 that are suitable for gaming. Here is one option:
+
+- Acer Predator Helios 300: Intel Core i7-11800H, 16GB RAM, 512GB SSD, NVIDIA GeForce RTX 3060, 15.6-inch FHD display, ₹85,000
+
+This laptop offers a good balance of performance and value for gaming within your budget. If you would like more options or details about this laptop, feel free to ask!
+2025-03-21 16:46:33,703 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:46:33] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 16:46:33,721 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:46:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 16:46:50,368 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:46:50] "[32mPOST /end_conversation HTTP/1.1[0m" 302 -
+2025-03-21 16:46:50,373 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:46:50] "GET / HTTP/1.1" 200 -
+2025-03-21 16:46:50,386 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 16:46:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 17:18:33,166 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.3:5001
+2025-03-21 17:18:33,167 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 17:18:33,167 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 17:18:33,530 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 17:18:33,538 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 17:18:36,904 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 17:18:36] "GET / HTTP/1.1" 200 -
+2025-03-21 17:18:36,927 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 17:18:36] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 17:18:45,631 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 17:18:45,632 - __main__ - INFO - Received user input: What laptops do you have available?
+2025-03-21 17:18:45,635 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 17:18:45] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 17:18:45,658 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 17:18:45] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 17:18:52,829 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 17:18:52,830 - __main__ - INFO - Received user input:  need a laptop for gaming under ₹80,000
+2025-03-21 17:18:52,832 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 17:18:52] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 17:18:52,867 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 17:18:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 17:19:32,073 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 17:19:32,074 - __main__ - INFO - Received user input: Show me laptops with 16GB RAM
+2025-03-21 17:19:32,076 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 17:19:32] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 17:19:32,104 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 17:19:32] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-21 17:21:04,361 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.3:5001
+2025-03-21 17:21:04,361 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 17:21:04,362 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 17:21:04,672 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 17:21:04,679 - werkzeug - INFO -  * Debugger PIN: 134-633-046
+2025-03-21 17:21:09,219 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 17:21:09,219 - __main__ - INFO - Received user input: Show me laptops with 16GB RAM
+2025-03-21 17:21:09,228 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 17:21:09] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 17:21:09,287 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 17:21:09] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-03-21 17:21:14,117 - __main__ - INFO - Form data keys: ['user_input_message']
+2025-03-21 17:21:14,117 - __main__ - INFO - Received user input: How does the Dell XPS compare to the Lenovo ThinkPad
+2025-03-21 17:21:18,422 - __main__ - INFO - Generated response: The Dell XPS 13 has a sleek design with a 13.4-inch 4K display, powered by an Intel Core i7-1185G7 processor and 16GB of RAM, along with a 1TB SSD for storage.
+
+On the other hand, the Lenovo ThinkPad series is known for its durability and reliability, popular among business professionals. The ThinkPad laptops often feature robust build quality, excellent keyboards, and security features.
+
+In terms of specific features and performance, both the Dell XPS 13 and Lenovo ThinkPad have their strengths. The Dell XPS 13 is more focused on providing a high-resolution display and stylish design, while the Lenovo ThinkPad prioritizes durability and business-focused features.
+
+Ultimately, the choice between the Dell XPS 13 and Lenovo ThinkPad would depend on your specific needs and preferences, such as design, display quality, performance, and intended use case.
+2025-03-21 17:21:18,423 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 17:21:18] "POST /conversation HTTP/1.1" 200 -
+2025-03-21 17:21:18,441 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 17:21:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -

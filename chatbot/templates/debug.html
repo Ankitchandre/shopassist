@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dataset Debug</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Laptop Dataset</h1>
+    <p>Total laptops: {{ laptops|length }}</p>
+    
+    <table>
+        <tr>
+            <th>Brand</th>
+            <th>Model</th>
+            <th>Processor</th>
+            <th>RAM</th>
+            <th>Storage</th>
+            <th>Display</th>
+            <th>Price</th>
+            <th>GPU</th>
+            <th>Display Quality</th>
+            <th>Portability</th>
+            <th>Multitasking</th>
+            <th>Processing Speed</th>
+        </tr>
+        {% for laptop in laptops %}
+        <tr>
+            <td>{{ laptop.Brand }}</td>
+            <td>{{ laptop.Model }}</td>
+            <td>{{ laptop.Processor }}</td>
+            <td>{{ laptop.RAM }}</td>
+            <td>{{ laptop.Storage }}</td>
+            <td>{{ laptop.Display }}</td>
+            <td>{{ laptop.Price }}</td>
+            <td>{{ laptop.GPU }}</td>
+            <td>{{ laptop.Display_Quality }}</td>
+            <td>{{ laptop.Portability }}</td>
+            <td>{{ laptop.Multitasking }}</td>
+            <td>{{ laptop.Processing_Speed }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html> 

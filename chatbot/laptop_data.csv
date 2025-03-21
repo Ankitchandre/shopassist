@@ -1,0 +1,20 @@
+Brand,Model,Processor,RAM,Storage,Display,Price,GPU,Display_Quality,Portability,Multitasking,Processing_Speed
+HP,EliteBook 840 G8,Intel Core i7-1165G7,16GB,512GB SSD,14-inch FHD,75000,Medium,High,Medium,High,High
+Dell,XPS 13,Intel Core i7-1185G7,16GB,1TB SSD,13.4-inch 4K,90000,Medium,High,High,High,High
+Lenovo,ThinkPad X1 Carbon,Intel Core i5-1135G7,8GB,256GB SSD,14-inch FHD,65000,Low,Medium,High,Medium,Medium
+Asus,ROG Strix G15,AMD Ryzen 9 5900HX,32GB,1TB SSD,15.6-inch QHD,120000,High,High,Low,High,High
+Acer,Predator Helios 300,Intel Core i7-11800H,16GB,512GB SSD,15.6-inch FHD,85000,High,Medium,Low,High,High
+Apple,MacBook Air M1,Apple M1,8GB,256GB SSD,13.3-inch Retina,92000,Medium,High,High,Medium,High
+MSI,GS66 Stealth,Intel Core i9-11900H,32GB,1TB SSD,15.6-inch FHD,130000,High,High,Medium,High,High
+Microsoft,Surface Laptop 4,AMD Ryzen 7 4980U,16GB,512GB SSD,13.5-inch PixelSense,110000,Medium,High,High,Medium,High
+Razer,Blade 15,Intel Core i7-11800H,16GB,512GB SSD,15.6-inch QHD,140000,High,High,Medium,High,High
+HP,Pavilion 15,Intel Core i5-1135G7,8GB,512GB SSD,15.6-inch FHD,55000,Low,Medium,Medium,Medium,Medium
+Dell,Inspiron 15,Intel Core i5-1135G7,8GB,256GB SSD,15.6-inch FHD,48000,Low,Medium,Medium,Medium,Medium
+Lenovo,IdeaPad Slim 5,AMD Ryzen 5 5500U,8GB,512GB SSD,14-inch FHD,52000,Low,Medium,High,Medium,Medium
+Asus,VivoBook 15,Intel Core i3-1115G4,8GB,256GB SSD,15.6-inch FHD,42000,Low,Medium,Medium,Low,Low
+Acer,Aspire 5,Intel Core i5-1135G7,8GB,512GB SSD,15.6-inch FHD,50000,Low,Medium,Medium,Medium,Medium
+HP,Omen 15,AMD Ryzen 7 5800H,16GB,512GB SSD,15.6-inch FHD,95000,High,High,Low,High,High
+Dell,G15,Intel Core i7-11800H,16GB,512GB SSD,15.6-inch FHD,88000,High,Medium,Low,High,High
+Lenovo,Legion 5,AMD Ryzen 7 5800H,16GB,512GB SSD,15.6-inch FHD,92000,High,High,Low,High,High
+Asus,TUF Gaming A15,AMD Ryzen 7 4800H,16GB,512GB SSD,15.6-inch FHD,78000,High,Medium,Low,High,High
+MSI,Katana GF66,Intel Core i7-11800H,16GB,512GB SSD,15.6-inch FHD,82000,High,Medium,Low,High,High

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ShopAssist AI 2.0</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 10px;
+        }
+        .loading-dots {
+            display: inline-block;
+        }
+        .loading-dots:after {
+            content: '.';
+            animation: dots 1.5s steps(5, end) infinite;
+        }
+        @keyframes dots {
+            0%, 20% { content: '.'; }
+            40% { content: '..'; }
+            60% { content: '...'; }
+            80%, 100% { content: ''; }
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h1>ShopAssist AI 2.0</h1>
+        </div>
+        
+        <div class="chat-messages" id="chat-messages">
+            {% for message in name_xyz %}
+                {% if message.user %}
+                    <div class="user-message">
+                        <p>{{ message.user }}</p>
+                    </div>
+                {% endif %}
+                
+                {% if message.bot %}
+                    <div class="bot-message">
+                        <p>{{ message.bot }}</p>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+        
+        <div class="chat-input">
+            <form action="/conversation" method="post">
+                <input type="text" name="user_input_message" placeholder="Type your message" required>
+                <button type="submit">
+                    <svg viewBox="0 0 24 24" width="24" height="24">
+                        <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path>
+                    </svg>
+                </button>
+            </form>
+        </div>
+        
+        <div class="end-chat">
+            <form action="/end_conversation" method="post">
+                <button type="submit">End Conversation</button>
+            </form>
+        </div>
+    </div>
+    
+    <script>
+        // Auto-scroll to bottom of chat
+        window.onload = function() {
+            var chatMessages = document.getElementById('chat-messages');
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        };
+        
+        // Remove the problematic event listener that might be causing issues
+        // document.querySelector('.inputform').addEventListener('submit', function(event) {
+        //     // This code was causing issues
+        // });
+    </script>
+</body>
+</html>
